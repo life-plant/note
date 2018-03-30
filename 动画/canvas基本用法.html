@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>canva-基本用法</title>
+</head>
+<body>
+    <canvas id="mycanvas"></canvas>
+    <script type="text/javascript">
+        var mycanvas = document.getElementById('mycanvas');
+        var ctx = mycanvas.getContext('2d');
+        ctx.fillStyle = 'green';
+        ctx.fillRect(10,10,100,100);
+
+    </script>
+</body>
+</html>
+
+<!-- 模板骨架：
+<html>
+  <head>
+    <title>Canvas tutorial</title>
+    <script type="text/javascript">
+      function draw(){
+        var canvas = document.getElementById('tutorial');
+        if (canvas.getContext){
+          var ctx = canvas.getContext('2d');
+        }
+      }
+    </script>
+    <style type="text/css">
+      canvas { border: 1px solid black; }
+    </style>
+  </head>
+  <body onload="draw();">
+    <canvas id="tutorial" width="150" height="150"></canvas>
+  </body>
+</html> -->
