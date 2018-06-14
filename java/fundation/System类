@@ -1,0 +1,6 @@
+#System类
+-. System.out.println()输出到显示器；
+-. System.in.println()键盘输入；
+-. System.currentTimeMillis当前时间距离1978年时刻的时间毫秒数，millisecond毫秒；
+-. System.getProperties(argument);返回系统环境信息；
+-. System.setProperties(String key, String value);设置系统变量的值；
