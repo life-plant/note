@@ -9,4 +9,4 @@
 
 #npm 更新
 npm install npm@(npm版本号)
-注意：npm更新之后，要删掉node_modules包重新安装
+注意：npm更新之后，要删掉项目中原先的node_modules包重新安装

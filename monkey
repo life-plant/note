@@ -1,1 +1,0 @@
-node monkey.js 2018/demo/pc -d
